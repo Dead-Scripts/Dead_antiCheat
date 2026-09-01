@@ -26,8 +26,8 @@ function BanPlayer(src, reason)
     banData['xbl'] = "NONE SUPPLIED";
     banData['live'] = "NONE SUPPLIED";
     banData['discord'] = "NONE SUPPLIED";
-    if ip ~= nil and ip ~= "nil" and ip ~= "" then 
-        banData['ip'] = tostring(ip);
+    if playerIP ~= nil and playerIP ~= "nil" and playerIP ~= "" then 
+        banData['ip'] = tostring(playerIP);
     end
     if playerLicense ~= nil and playerLicense ~= "nil" and playerLicense ~= "" then 
         banData['license'] = tostring(playerLicense);
